@@ -1,0 +1,115 @@
+What is a Thread in Java?
+= A thread in Java is the (direction or path) that is taken while a program is being 
+executed.
+
+=A thread is a thread of execution in a program
+
+==direction or path
+
+
+What is thread with example?
+Image result for define thread in java
+==Thread is often referred to as a lightweight process. 
+
+==The process can be split down into so many threads. 
+For example, in a browser, many tabs can be viewed as threads. 
+==MS Word uses many threads - formatting text from one thread, processing input from 
+ another thread, etc.
+
+
+Thread
+==Direction or path taken(while execution time)
+==thread of execution in a program
+==lightweight process
+
+example>>>in a browser--- many tabs can be viewed as threads.
+example>>>MS Word---formatting text from one thread, processing input from another thread.
+
+
+---------------------------------------------------------------------------------
+((Bean))
+
+In Spring, the objects that form the backbone of your application and that are managed by
+ the Spring IoC container are called beans.
+
+==objects that form the backbone of your application managed by the Spring IOC container
+
+-----------------------------------------------------------------------------
+((Component)
+
+==Spring Component annotation is used to denote a class as Component. 
+==It means that Spring framework will autodetect these classes for dependency injection 
+when annotation-based configuration and classpath scanning is used.
+
+==used to denote a class as Component
+
+==
+
+
+What is the difference between @bean and @component in Spring?
+==The @Bean annotation is a method-level annotation, 
+==whereas @Component is a class-level annotation. 
+==The @Component annotation doesn't need to be used with the @Configuration
+ annotation, whereas the @Bean annotation has to be used within a class annotated with 
+ @Configuration .
+
+------------------------------------------------------------------------------------
+
+((MVC))
+
+=Spring MVC is a Java framework that is used to develop web applications.
+
+==develop web applications
+
+MVC
+The steps are as follows:
+
+=Load the spring jar files or add dependencies in the case of Maven.
+=Create the controller class.
+=Provide the entry of controller in the web.xml file.
+=Define the bean in the separate XML file.
+=Display the message in the JSP page.
+=Start the server and deploy the project.
+
+==add dependencies.
+==Create the controller class.
+==entry..controller in the web.xml file.
+==Define the bean in the separate XML file.
+==Display the message in the JSP page.
+==Start the server and deploy the project.(deployment==ನಿಯೋಜನೆ)
+
+
+Design Pattern
+
+=The Spring framework uses the factory design pattern for the creation of the object of
+ beans by using the following two approaches.
+=Spring BeanFactory Container: – It is the simplest container present in the 
+spring framework which provides the basic support for DI (Dependency Injection).
+
+
+==Spring framework uses the factory design pattern = creation of the object of beans.
+==Spring framework=provides the basic support for DI (Dependency Injection).
+
+
+
+(Servalet)
+
+=Simply put, a Servlet is a class that handles requests, processes them and reply 
+back with a response.
+
+=For example, we can use a Servlet to collect input from a user through an HTML form,
+ query records from a database, and create web pages dynamically.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
